@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 4rem;
+}
+
+.img-all{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.selection{
+    text-align: center;
+    padding: 1rem;
+}
+
+#a{
+    background-color: blue;
+    color: red;
+}
