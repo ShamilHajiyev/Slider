@@ -13,22 +13,26 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="img-all">
-            <img id="image"
-                src="https://png.pngtree.com/thumb_back/fh260/background/20190827/pngtree-random-energy-wave-background-image_307670.jpg"
-                alt="">
-            <!-- <img src="https://png.pngtree.com/thumb_back/fh260/background/20190827/pngtree-black-hole-energy-blast-background-image_307667.jpg"
-                alt="">
-            <img src="https://png.pngtree.com/thumb_back/fh260/background/20190827/pngtree-black-hole-energy-backgroundjavascript-image_307668.jpg"
-                alt=""> -->
+    <section id="slider">
+        <div class="container">
+            <div id="slider-all">
+                <div class="img-all">
+                    <img id="image"
+                        src="https://png.pngtree.com/thumb_back/fh260/background/20190827/pngtree-random-energy-wave-background-image_307670.jpg"
+                        alt="">
+                    <i id="left" class="fa-solid fa-chevron-left"></i>
+                    <i id="right" class="fa-solid fa-chevron-right"></i>
+                </div>
+
+                <div class="selection">
+                    <input type="radio" checked name="slider-img" id="a">
+                    <input type="radio" name="slider-img" id="b">
+                    <input type="radio" name="slider-img" id="c">
+                </div>
+            </div>
         </div>
-        <div class="selection">
-            <input type="radio" name="1" id="a">
-            <input type="radio" name="1" id="b">
-            <input type="radio" name="1" id="c">
-        </div>
-    </div>
+    </section>
+
     <script src="assets/js/app.js"></script>
 </body>
 
